@@ -1,0 +1,49 @@
+/* ===== STYLE UTAMA DARI MAINPAGE.CSS ===== */
+body {
+    background-color: #f4f4f4;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.cusban {
+    background-image: url('../img/pls.png');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* Footer Styles */
+footer {
+    background-color: #212529; /* Gelap (bg-dark) */
+    color: #adb5bd; /* Abu-abu terang */
+    padding: 40px 0 20px;
+    margin-top: 50px; /* Jarak dari konten atas */
+}
+
+footer h5 {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #adb5bd;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    color: #fff; /* Putih saat dihover */
+}
+
+footer .social-icon {
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
